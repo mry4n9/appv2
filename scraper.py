@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import streamlit as st
 import json
 from openai import OpenAI
+import re
 
 # Use gpt-4o-mini as it's a capable and cost-effective recent model.
 # The user can change this if they have access to a specific "gpt-4.1-mini".
