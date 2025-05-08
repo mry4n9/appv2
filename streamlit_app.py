@@ -227,4 +227,4 @@ if st.session_state.generated_excel_bytes:
         st.json(st.session_state.company_info)
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("Developed for Branding & Marketing Consultancy.")
+st.sidebar.markdown("Made by M.")
